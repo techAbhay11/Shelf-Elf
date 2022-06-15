@@ -1,0 +1,54 @@
+
+
+Main page
+
+Log-in
+Sign-up
+Create-post
+Search-book
+Post-page
+Book-page
+Profile-page
+
+Navbar:
+Logged in: Home Books Posts Profile Log-out
+Logged out: Home Books Posts Log-in Sign-up
+
+Schema:
+
+User:
+email
+username
+user_id
+avatar/pic
+joined_date
+posts_made:
+  title
+  date
+comments_made:
+  content
+  date
+upvoted/liked posts
+upvoted/liked comments
+saved posts
+
+Post:
+post_id
+title
+content:
+  image/text
+upvotes/points
+posted by:
+  username
+  user_id
+  user_link
+timestamp
+comments:
+  posted by:
+    username
+    user_id
+    user_link
+  content
+  upvotes/points
+  timestamp
+  replies
